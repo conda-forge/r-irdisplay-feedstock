@@ -1,4 +1,4 @@
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: r-irdisplay
@@ -7,7 +7,7 @@ package:
 source:
   fn: r-irdisplay-{{ version }}.tar.gz
   url: https://github.com/IRkernel/IRdisplay/archive/{{ version }}.tar.gz
-  sha256: 102bd7c2bef96407626e3b9d4d43abe80c3041dbde7a401eb9b4f89566f3f292
+  sha256: 53a8499e7c718468fc69c6922cf39be27d2e7e688206633c4e48c908debf9ab2
 
 build:
   number: 0
