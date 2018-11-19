@@ -14,9 +14,8 @@ Summary: An interface to the rich display capabilities of 'Jupyter' front-ends (
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-irdisplay-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-irdisplay-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-irdisplay-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-irdisplay-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-irdisplay-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-irdisplay-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-irdisplay-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-irdisplay-feedstock)
 
 Current release info
 ====================
