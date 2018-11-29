@@ -17,20 +17,19 @@ build:
     - lib/R/lib/
     - lib/
 
-requirements:  # [not win32]
-  build:  # [not win32]
-    - r-base  # [not win32]
-    - posix  # [win64]
-    - m2-git  # [win64]
-    - r-repr  # [not win32]
-  run:  # [not win32]
-    - r-base  # [not win32]
-    - r-repr  # [not win32]
+requirements:
+  build:
+    - r-base
+    - posix
+    - m2-git
+    - r-repr
+  run:
+    - r-base
+    - r-repr
 
 test:
   commands:
-    - R -e "library('IRdisplay')"  # [not win]
-    - R -e \"library('IRdisplay')\"  # [win]
+    - R -e "library('IRdisplay')"
 
 about:
   home: https://github.com/IRkernel/IRdisplay/
