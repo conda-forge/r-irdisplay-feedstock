@@ -20,8 +20,6 @@ build:
 requirements:
   build:
     - r-base
-    - posix
-    - m2-git
     - r-repr
   run:
     - r-base
