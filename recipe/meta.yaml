@@ -1,4 +1,4 @@
-{% set version = "0.7" %}
+{% set version = "1.0" %}
 
 package:
   name: r-irdisplay
@@ -7,11 +7,11 @@ package:
 source:
   fn: r-irdisplay-{{ version }}.tar.gz
   url: https://github.com/IRkernel/IRdisplay/archive/{{ version }}.tar.gz
-  sha256: 17144b58670fbae97bdc76ee0efd79ffd8699d25a13e0adf47e208f4d28bc799
+  sha256: ecf3d9a1c83af2951f6568efe2b720ed7a7ff703675200d06fa6c31af5d11882
 
 build:
   noarch: generic
-  number: 1002
+  number: 0
   script: R CMD INSTALL --build .
   rpaths:
     - lib/R/lib/
@@ -33,8 +33,7 @@ about:
   home: https://github.com/IRkernel/IRdisplay/
   license: MIT
   license_file: LICENSE
-  summary: "An interface to the rich display capabilities of 'Jupyter' front-ends (e.g. 'Jupyter
-    Notebook'). Designed to be used from a running 'IRkernel'."
+  summary: An interface to the rich display capabilities of 'Jupyter' front-ends (e.g. 'Jupyter Notebook'). Designed to be used from a running 'IRkernel'.
 
 extra:
   recipe-maintainers:

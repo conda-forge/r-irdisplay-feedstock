@@ -5,11 +5,9 @@ Home: https://github.com/IRkernel/IRdisplay/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-irdisplay-feedstock/blob/master/LICENSE.txt)
 
 Summary: An interface to the rich display capabilities of 'Jupyter' front-ends (e.g. 'Jupyter Notebook'). Designed to be used from a running 'IRkernel'.
-
-
 
 Current build status
 ====================
