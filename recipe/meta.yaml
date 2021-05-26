@@ -7,7 +7,7 @@ package:
 source:
   fn: r-irdisplay-{{ version }}.tar.gz
   url: https://github.com/IRkernel/IRdisplay/archive/{{ version }}.tar.gz
-  sha256: ecf3d9a1c83af2951f6568efe2b720ed7a7ff703675200d06fa6c31af5d11882
+  sha256: 8cb80a3564d90c3992ba8b09bc1393e10c3f9b3bfe48f16432a90055e188b21b
 
 build:
   noarch: generic
@@ -18,7 +18,7 @@ build:
     - lib/
 
 requirements:
-  build:
+  host:
     - r-base
     - r-repr
   run:
